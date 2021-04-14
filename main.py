@@ -2,7 +2,7 @@
 
 import pandas as pd
 import numpy as np
-
+# tetst 123134651
 df = pd.read_csv('input.csv',delimiter=';',header=None, decimal=",")
 
 number_cluster = df.loc[0,0]
